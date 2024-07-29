@@ -1,6 +1,11 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Recipe page solution
 
-![Design preview for the Recipe page coding challenge](./preview.jpg)
+Screenshot
+![omm3](https://github.com/user-attachments/assets/341f1c7e-86ba-4b3b-a580-7be5efccca89)
+Responsive for mobaile
+![ful resposive](https://github.com/user-attachments/assets/26d354c2-bb80-4708-99e3-03843179d79e)
+
+
 
 ## Welcome! 👋
 
