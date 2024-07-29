@@ -1,0 +1,227 @@
+:root{
+ --primary: "Young Serif", serif;
+ --secondary: "Outfit", sans-serif;
+ --Stone100: hsl(30, 54%, 90%);
+--Stone150: hsl(30, 18%, 87%);
+--Stone600: hsl(30, 10%, 34%);
+--Stone900: hsl(24, 5%, 18%);
+--Brown800: hsl(14, 45%, 36%);
+--Rose800: hsl(332, 51%, 32%);
+--Rose50: hsl(330, 100%, 98%);
+}
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height:100%
+}
+
+body{
+  height: 100%;
+  font-weight: 16px;
+  background-color:var(--Stone100); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-width: 100%;
+}
+
+.parent{
+  width: 750px;
+  background-color:white;
+  padding: 32px;
+  border-radius: 25px;
+}
+
+.box img{
+width: 100%;
+border-radius: 13px;
+}
+
+.box h2{
+font-family: var(--primary);
+font-size: 32px;
+margin: 20px 0;
+font-weight: normal;
+}
+
+.box p{
+font-size: 16px;
+font-family: var(--secondary);
+margin-bottom: 25px;
+}
+
+
+.Preparation{
+  background-color: var(--Rose50);
+  padding: 26px;
+  border-radius: 10px;
+line-height:30px;
+margin-bottom: 23px;
+}
+
+.Preparation h4{
+  color:var(--Rose800);
+  font-family: var(--secondary);
+ 
+}
+
+.Preparation li {
+  font-family: var(--secondary);
+  font-weight: 400px;
+  color: var(--Stone600);
+}
+
+.Preparation li b {
+  font-family: var(--secondary);
+  color:var(--Stone600);
+}
+
+
+
+.Ingredients {
+ 
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+}
+
+.Ingredients h4{
+color: var(--Brown800);
+font-size: 23px;
+margin-bottom: 20px;
+font-weight:normal;
+font-family: var(--primary);
+}
+
+.Ingredients li{
+color: var(--Brown800);
+font-family: var(--secondary);
+margin-bottom: 24px;
+}
+
+.Ingredients li span{
+color: var(--Stone600);
+font-family: var(--secondary);
+margin-bottom: 24px;
+}
+
+.Ingredients li:last-child{
+color: var(--Brown800);
+font-family: var(--secondary);
+padding-bottom: 18px;
+}
+
+.Instructions{
+  font-family: var(--secondary);
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  }
+
+.Instructions h4{
+  color: var(--Brown800);
+font-size: 23px;
+margin-bottom: 20px;
+font-family: var(--primary);
+font-family:normal;
+
+}
+
+.Instructions ol{
+  color: var(--Brown800);
+  padding: 0cqw 20px;
+  margin-bottom: 20px;
+}
+
+.Instructions li{
+  color: var(--Stone600);
+  padding: 3px 20px;
+}
+
+.Instructions li span{
+  color: var(--Stone600);
+  line-height: 23px;
+}
+
+.neutrition{
+  font-family: var(--secondary);
+  padding-top: 20px;
+}
+
+.neutrition h4{
+  font-family: var(--primary);
+  font-weight: normal;
+    color: var(--Brown800);
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.neutrition p{
+  font-family: var(--secondary);
+  margin-bottom: 20px;
+}
+
+.table{
+  font-family: var(--secondary);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table tr{
+border-bottom: 2px solid #ddd;
+}
+
+.table tr:last-child{
+border-bottom: none;
+}
+
+.table th, td{
+  width: 25%;
+  text-align:left;
+  padding: 15px 35px;
+  color: var(--Stone600);
+  font-weight: normal;
+
+}
+
+.table td{
+  width: 28%;
+  text-align: left;
+  color: var(--Brown800);
+  font-weight:bold ;
+}
+
+
+/* Responsive */
+
+
+@media only screen and (max-width:750px) {
+
+ body{
+  height: auto;
+ }
+   .parent{
+    width: 100%;
+    border-radius: 0px;
+    padding: 0;
+  }
+  .box img{
+   border-radius: 0;
+   padding: 0;
+  }
+  .boxes{
+    padding:0 30px;
+  }
+  
+}
+
+
+
+
+
